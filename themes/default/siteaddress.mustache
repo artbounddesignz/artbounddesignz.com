@@ -1,0 +1,23 @@
+{{!
+http://microformats.org/wiki/adr address
+}}
+<p class="adr">
+  {{#adr-street-address}}
+  <span class="street-address">{{adr-street-address}}</span><br>
+  {{/adr-street-address}}
+  {{#adr-extended-address}}
+  <span class="extended-address">{{adr-extended-address}}</span><br>
+  {{/adr-extended-address}}
+  {{#adr-locality}}
+  <span class="locality">{{adr-locality}}</span>,
+  {{/adr-locality}}
+  {{#adr-region}}
+  <span class="region">{{adr-region}}</span><br>
+  {{/adr-region}}
+  {{#adr-postal-code}}
+  <span class="postal-code">{{adr-postal-code}}</span><br>
+  {{/adr-postal-code}}
+  {{#adr-country-name}}
+  <span class="country-name">{{adr-country-name}}</span>
+  {{/adr-country-name}}
+</p>

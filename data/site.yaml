@@ -1,0 +1,26 @@
+theme_dir: default
+
+sitetitle: Art Bound Designz
+author: 
+copyrightyear: 
+sitedescription: Hand-made books
+
+# used for microformats adr
+adr-street-address:
+adr-extended-address:
+adr-locality:
+adr-region:
+adr-postal-code:
+adr-country-name:
+
+sitenav:
+  -
+    title: Contact Us
+    url: /contact/
+  -
+    title: About Us
+    url: /about/
+  -
+    title: Sitemap
+    url: /sitemap/
+

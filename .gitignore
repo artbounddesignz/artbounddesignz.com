@@ -1,0 +1,13 @@
+.Python
+*.swp
+themes/libs/*
+frozen/
+.installed.cfg
+bin/
+bootstrap.py
+develop-eggs/
+downloads/
+eggs/
+lib/
+parts/
+include/

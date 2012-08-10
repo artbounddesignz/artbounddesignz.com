@@ -1,0 +1,7 @@
+/* site.css */
+
+#sitenav {
+}
+  #sitenav a.active {
+    border: 1px solid black;
+  }
